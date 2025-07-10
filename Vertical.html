@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Carros Verticais</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      padding: 40px 0;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 300px;
+    }
+    .card {
+      padding: 30px;
+      border-radius: 10px;
+      color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .sedans { background: #D87D4A; }
+    .suvs { background: #0C6C73; }
+    .luxury { background: #00363a; }
+
+    h2 {
+      font-size: 24px;
+      margin: 20px 0 10px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    button {
+      margin-top: 30px;
+      padding: 10px 20px;
+      border: none;
+      background: white;
+      color: black;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #e6e6e6;
+    }
+  </style>
+</head>
+<body>
+   <div class="container">
+    <div class="card sedans">
+      <h2>SEDÃS</h2>
+      <p>Escolha um sedã por seu preço acessível e excelente economia de combustível. Ideal para passear na cidade ou na sua próxima viagem.</p>
+      <button>Saber mais</button>
+    </div>
+    <div class="card suvs">
+      <h2>SUV</h2>
+      <p>-Aposte em um SUV pelo seu interior espaçoso, potência e versatilidade. Perfeito para suas próximas férias em família e aventuras off-road.</p>
+      <button>Saber mais</button>
+    </div>
+    <div class="card luxury">
+      <h2>LUXO</h2>
+      <p>Viaje nas melhores marcas de carros sem os preços inflacionados. Desfrute do conforto aprimorado de um aluguel de luxo e chegue com estilo.</p>
+      <button>Saber mais</button>
+    </div>
+  </div>
+</body>
+</html>
